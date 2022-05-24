@@ -39,14 +39,14 @@ public class ManagerEstadoAgentes {
 	public static void main(String[] args) throws SchedulerException {
 		
 		try {					
-			/*
+			
 			ConfiguracionQuartz con = new ConfiguracionQuartz();
 			con.configuracionQuartz();			
-			*/
 			
+			/*
 			  ManagerEstadoAgentes managerEstadoAgentes = new ManagerEstadoAgentes();
 			  managerEstadoAgentes.getInfo();
-						
+			*/		
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error("Exception: " + e.getMessage());
