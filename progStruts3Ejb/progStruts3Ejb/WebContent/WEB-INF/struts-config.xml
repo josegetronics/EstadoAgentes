@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>
+
+  <form-beans>
+    <form-bean name="loginActionForm" type="snsadmin.controller.login.model.LoginActionForm" />
+    <form-bean name="menuForm"        type="snsadmin.controller.menu.model.MenuForm" />
+    <form-bean name="historicoForm"   type="snsadmin.controller.historico.model.HistoricoForm" />
+    <form-bean name="reportingForm"   type="snsadmin.controller.fichero.model.ReportingForm" />
+  </form-beans>
+
+  <global-forwards>
+    <forward name="loginAction"     path="loginAction.do" />
+    <forward name="menuAction"      path="menuAction.do" />
+    <forward name="historicoAction" path="historicoAction.do" />
+    <forward name="descargaAction"  path="descargaAction.do" />
+    <forward name="reportingAction" path="reportingAction.do" />
+  </global-forwards>
+
+  <action-mappings>
+    <action input="/inicio.jsp"  validate="true" name="loginActionForm" path="/loginAction" scope="request" type="snsadmin.controller.login.action.LoginAction">
+      <forward name="sucess"    path="/menuInicio.jsp" />
+      <forward name="fail"      path="/loginDenegado.jsp" />
+      <forward name="exception" path="/error.jsp" />
+    </action>
+
+    <action name="menuForm" path="/menuAction" scope="request" type="snsadmin.controller.menu.action.MenuAction">
+      <forward name="report"     path="/reporting.jsp" />
+      <forward name="historico"  path="/historico.jsp" />
+      <forward name="exception"  path="/error.jsp" />
+    </action>
+
+    <action name="historicoForm" path="/historicoAction" scope="request" type="snsadmin.controller.historico.action.HistoricoAction">
+      <forward name="historico"    path="/historicoFiles.jsp" />
+      <forward name="exception"    path="/error.jsp" />
+    </action>
+
+   <action input="/historicoFiles.jsp" validate="false" name="historicoForm" path="/descargaAction" scope="request" type="snsadmin.controller.historico.action.DescargaFicherosAction">
+      <forward name="resultado"    path="/resultado.jsp" />
+      <forward name="exception" path="/error.jsp" />
+    </action>
+
+
+    <action input="/reporting.jsp"  validate="true" name="reportingForm" path="/reportingAction" scope="request" type="snsadmin.controller.fichero.action.ReportingAction">
+      <forward name="sucess"    path="/resultado.jsp" />
+      <forward name="exception" path="/error.jsp" />
+    </action>
+
+  </action-mappings>
+</struts-config>

@@ -1,0 +1,284 @@
+24/may/2022 09:25:06 DEBUG ManagerEstadoAgentes.getInfo:64 - Probando el scheduler
+24/may/2022 09:25:06 DEBUG ManagerEstadoAgentes.getInfo:71 - sns.estadoagentes.ManagerEstadoAgentes.getInfo: INICIO1
+24/may/2022 09:25:06 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:06 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 02.- SERVICIO ANDALUZ DE SALUD. SAS
+24/may/2022 09:25:06 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764387 and cod_agente_origen=2 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:07 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:07 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764802 and cod_agente_origen=2 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:08 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:08 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:08 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 03.- SERVICIO CANARIO DE SALUD
+24/may/2022 09:25:08 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060763818 and cod_agente_origen=3 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:08 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:08 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060186763 and cod_agente_origen=3 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 04.- INSTITUTO CATALAN DE LA SALUD. ICS
+24/may/2022 09:25:09 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764535 and cod_agente_origen=4 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:10 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:10 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764657 and cod_agente_origen=4 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:11 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:11 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:11 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 05.- SERVICIO GALLEGO DE SALUD. SERGAS
+24/may/2022 09:25:11 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764794 and cod_agente_origen=5 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:11 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:11 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060166035 and cod_agente_origen=5 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 06.- SERVICIO NAVARRO DE SALUD. OSASUNBIDEA
+24/may/2022 09:25:12 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764785 and cod_agente_origen=6 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:13 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:13 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764810 and cod_agente_origen=6 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:14 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:14 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:14 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 07.- SERVICIO VASCO DE SALUD. OSAKIDETZA
+24/may/2022 09:25:14 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764838 and cod_agente_origen=7 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:14 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:14 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2059953619 and cod_agente_origen=7 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:15 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:15 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:06 CEST 2022
+24/may/2022 09:25:15 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 08.- SERVICIO VALENCIANO DE SALUD. SERVASA
+24/may/2022 09:25:15 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060740400 and cod_agente_origen=8 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:16 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:16 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764735 and cod_agente_origen=8 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:45 DEBUG ManagerEstadoAgentes.getInfo:64 - Probando el scheduler
+24/may/2022 09:25:45 DEBUG ManagerEstadoAgentes.getInfo:71 - sns.estadoagentes.ManagerEstadoAgentes.getInfo: INICIO1
+24/may/2022 09:25:45 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:45 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 02.- SERVICIO ANDALUZ DE SALUD. SAS
+24/may/2022 09:25:45 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764387 and cod_agente_origen=2 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:46 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:46 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764802 and cod_agente_origen=2 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:47 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:47 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:47 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 03.- SERVICIO CANARIO DE SALUD
+24/may/2022 09:25:47 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060763818 and cod_agente_origen=3 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:48 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:48 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060186763 and cod_agente_origen=3 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:48 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:48 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:48 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 04.- INSTITUTO CATALAN DE LA SALUD. ICS
+24/may/2022 09:25:48 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764535 and cod_agente_origen=4 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:49 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:49 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764657 and cod_agente_origen=4 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:50 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:50 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:50 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 05.- SERVICIO GALLEGO DE SALUD. SERGAS
+24/may/2022 09:25:50 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764794 and cod_agente_origen=5 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:51 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:51 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060166035 and cod_agente_origen=5 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:51 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:51 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:51 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 06.- SERVICIO NAVARRO DE SALUD. OSASUNBIDEA
+24/may/2022 09:25:51 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764785 and cod_agente_origen=6 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:53 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:53 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764810 and cod_agente_origen=6 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:54 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:54 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:54 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 07.- SERVICIO VASCO DE SALUD. OSAKIDETZA
+24/may/2022 09:25:54 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764838 and cod_agente_origen=7 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:55 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:55 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2059953619 and cod_agente_origen=7 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:55 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:55 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:55 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 08.- SERVICIO VALENCIANO DE SALUD. SERVASA
+24/may/2022 09:25:55 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060740400 and cod_agente_origen=8 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:56 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:56 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764735 and cod_agente_origen=8 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:57 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:57 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:57 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 09.- MUFACE
+24/may/2022 09:25:57 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060072821 and cod_agente_origen=9 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:57 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:57 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060666903 and cod_agente_origen=9 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:58 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:58 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:25:58 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 13.- SERVICIO ARAGONES DE SALUD. SALUD -> mirambel.salud.aragob.es/msc/msc.asp
+24/may/2022 09:25:58 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764316 and cod_agente_origen=13 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:25:59 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:25:59 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2059952112 and cod_agente_origen=13 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:00 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:00 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:00 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 14.- SERVICIO DE SALUD DEL PRINCIPADO DE ASTURIAS -> sespasns.sespa.es/msc/msc.asp
+24/may/2022 09:26:00 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764824 and cod_agente_origen=14 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:00 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:00 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060094471 and cod_agente_origen=14 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:01 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:01 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:01 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 15.- SERVEI DE SALUT DES ILLES BALEARS. IBSALUT -> lappits1.caib.es/msc/msc.asp
+24/may/2022 09:26:01 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060760133 and cod_agente_origen=15 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:02 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:02 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060646492 and cod_agente_origen=15 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:03 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:03 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:03 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 16.- SERVICIO CANTABRO DE SALUD -> scsalud3.scsalud.es/msc/msc.asp
+24/may/2022 09:26:03 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060765001 and cod_agente_origen=16 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:03 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:03 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2059951341 and cod_agente_origen=16 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:04 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:04 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:04 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 17.- SERVICIO DE SALUD DE CASTILLA-LA MANCHA. SESCAM -> 10.60.16.7/msc/msc.asp
+24/may/2022 09:26:04 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060765264 and cod_agente_origen=17 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:05 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:05 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060765329 and cod_agente_origen=17 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:06 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:06 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:06 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 18.- SANIDAD DE CASTILLA Y LEON. SACYL -> grsgscvant0101.sacyl.es/msc/msc.asp
+24/may/2022 09:26:06 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764901 and cod_agente_origen=18 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:06 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:06 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060147630 and cod_agente_origen=18 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:07 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:07 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:07 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 19.- INGESA -> snsinsalud.insalud.es/msc/msc.asp
+24/may/2022 09:26:07 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764534 and cod_agente_origen=19 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:08 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:08 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2059871310 and cod_agente_origen=19 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 20.- SERVICIO EXTREMEÑO DE SALUD. SES -> 10.165.4.42/msc/msc.asp
+24/may/2022 09:26:09 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764625 and cod_agente_origen=20 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:09 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:09 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2059946085 and cod_agente_origen=20 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:10 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:10 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:10 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 21.- SERVICIO RIOJANO DE SALUD -> tsi1_larioja.seris.es/msc/msc.asp
+24/may/2022 09:26:10 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060694752 and cod_agente_origen=21 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:11 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:11 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060098748 and cod_agente_origen=21 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 22.- SERVICIO MURCIANO DE SALUD -> filemon.carm.es/msc/msc.asp
+24/may/2022 09:26:12 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060351811 and cod_agente_origen=22 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:12 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:12 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060762593 and cod_agente_origen=22 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:13 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:13 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:25:45 CEST 2022
+24/may/2022 09:26:13 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 23.- CONSEJERIA DE SANIDAD DE LA COMUNIDAD DE MADRID -> salud.madrid.org/msc/msc.asp
+24/may/2022 09:26:13 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060765619 and cod_agente_origen=23 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:14 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:14 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060655485 and cod_agente_origen=23 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:26:15 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 09:26:17 DEBUG InfoTraspasos.getInfoTraspasos:32 - getInfoTraspasos: INICIO
+24/may/2022 09:26:17 DEBUG InfoTraspasos.getInfoTraspasos:33 - getInfoTraspasos: -------------------------------------
+24/may/2022 09:26:17 DEBUG InfoTraspasos.getInfoBBDD:82 - getInfoBBDD: INICIO
+24/may/2022 09:26:17 DEBUG QueryEstadoAgentes.generateQueryCambiosTraspasos:165 - generateQueryCambiosTraspasos: INICIO
+24/may/2022 09:26:17 DEBUG Util.generateFecha:25 - generateFecha: INICIO
+24/may/2022 09:26:17 DEBUG Util.generateFecha:58 - generateFecha: fecha: 2022-05-23
+24/may/2022 09:26:17 DEBUG Util.generateFecha:59 - generateFecha: FIN
+24/may/2022 09:26:17 DEBUG QueryEstadoAgentes.generateQueryCambiosTraspasos:201 - generateQueryCambiosTraspasos: query:  SELECT /*+ PARALLEL(8) */ replace(replace(h2.valor_solicitud,'<valor>',''),'</valor>','') ca_actual,replace(replace(h2.valor_anterior,'<valor>',''),'</valor>','') ca_anterior, h.*,  dp.NOMBRE, dp.APELLIDO1, dp.APELLIDO2, dp.COD_SEXO, TO_CHAR(dp.FECHA_NAC, 'dd/mm/yyyy') FECHA  FROM  snsalud.registro_operaciones r, snsalud.historico_mod_usuarios h , snsalud.historico_mod_usuarios h2, snsalud.datos_personales dp  WHERE r.FECHA_OPERACION BETWEEN TO_DATE('2022-05-23 00:00','YYYY-MM-DD HH24:MI') AND TO_DATE('2022-05-23 23:59','YYYY-MM-DD HH24:MI') AND   h.COD_USUARIO_SNS    = dp.COD_USUARIO_SNS  AND   r.COD_TIPO_OPERACION = 'A005'  AND   h.COD_OPERACION      = r.COD_OPERACION_MAESTRA  AND   h2.COD_OPERACION     = r.COD_OPERACION  AND replace(replace(h2.valor_solicitud,'<valor>',''),'</valor>','') <> '21'  AND  (   h.campos_afectados LIKE '%nombre<%'        OR h.campos_afectados LIKE '%apel%'        OR h.campos_afectados LIKE '%apel%'        OR h.campos_afectados LIKE '%sexo%'        OR h.campos_afectados LIKE '%fecha_nac%'        OR h.campos_afectados LIKE '%dni<%'        OR h.campos_afectados LIKE '%naf_titular%'        OR h.campos_afectados LIKE '%naf<%'       )  ORDER BY 1 
+24/may/2022 09:26:17 DEBUG QueryEstadoAgentes.generateQueryCambiosTraspasos:202 - generateQueryCambiosTraspasos: FIN
+24/may/2022 09:26:18 ERROR InfoTraspasos.getInfoBBDD:198 - getInfoBBDD: Exception: ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+java.sql.SQLException: ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:113)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:283)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:278)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.receiveOauth(T4CTTIoauthenticate.java:792)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:364)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:454)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:802)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at gasai.bd.AccesoGenericoBD.abrirConexion(AccesoGenericoBD.java:676)
+	at gasai.bd.AccesoGenericoBD.consultaRaw(AccesoGenericoBD.java:1020)
+	at gasai.bd.AccesoBD.consultaRaw(AccesoBD.java:213)
+	at gasai.bd.AccesoBD.consultaRaw(AccesoBD.java:196)
+	at sns.estadoagentes.model.InfoTraspasos.getInfoBBDD(InfoTraspasos.java:91)
+	at sns.estadoagentes.model.InfoTraspasos.getInfoTraspasos(InfoTraspasos.java:35)
+	at sns.estadoagentes.ManagerEstadoAgentes.getInfo(ManagerEstadoAgentes.java:127)
+	at sns.estadoagentes.ManagerEstadoAgentes.main(ManagerEstadoAgentes.java:48)
+24/may/2022 09:26:18 ERROR InfoTraspasos.getInfoTraspasos:63 - getInfoTraspasos: Exception: ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+java.lang.Exception: ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+	at sns.estadoagentes.model.InfoTraspasos.getInfoTraspasos(InfoTraspasos.java:51)
+	at sns.estadoagentes.ManagerEstadoAgentes.getInfo(ManagerEstadoAgentes.java:127)
+	at sns.estadoagentes.ManagerEstadoAgentes.main(ManagerEstadoAgentes.java:48)
+24/may/2022 09:26:18 ERROR ManagerEstadoAgentes.getInfo:133 - Exception: Cannot invoke "sns.comun.bean.CambiosTraspasosBean.getMapInformacion()" because "cambiosTraspasosBean" is null
+24/may/2022 09:26:18 ERROR ManagerEstadoAgentes.getInfo:324 - Exception: Cannot invoke "sns.comun.bean.CambiosTraspasosBean.getMapInformacion()" because "cambiosTraspasosBean" is null
+24/may/2022 09:26:18 DEBUG ManagerEstadoAgentes.getInfo:330 - getInfoTraspasos: CONENECTION_SNS CLOSE
+24/may/2022 09:26:18 DEBUG ManagerEstadoAgentes.getInfo:338 - getInfoTraspasos: CONENECTION_SNS CLOSE_INTERCAM
+24/may/2022 09:28:53 DEBUG ManagerEstadoAgentes.getInfo:64 - Probando el scheduler
+24/may/2022 09:28:53 DEBUG ManagerEstadoAgentes.getInfo:71 - sns.estadoagentes.ManagerEstadoAgentes.getInfo: INICIO1
+24/may/2022 09:28:53 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 09:28:53 CEST 2022
+24/may/2022 09:28:53 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 02.- SERVICIO ANDALUZ DE SALUD. SAS
+24/may/2022 09:28:53 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764387 and cod_agente_origen=2 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 09:49:44 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:74 - infOperacionAgente (ASINCRONO): 2066329373|2022-05-24 09:28:29.0
+24/may/2022 10:03:47 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:77 - Dias de diferencia: 0
+24/may/2022 10:03:47 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: 0
+24/may/2022 10:03:47 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764802 and cod_agente_origen=2 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 10:03:57 DEBUG ManagerEstadoAgentes.getInfo:64 - Probando el scheduler
+24/may/2022 10:03:57 DEBUG ManagerEstadoAgentes.getInfo:71 - sns.estadoagentes.ManagerEstadoAgentes.getInfo: INICIO1
+24/may/2022 10:03:57 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 10:03:57 CEST 2022
+24/may/2022 10:03:57 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 02.- SERVICIO ANDALUZ DE SALUD. SAS
+24/may/2022 10:03:57 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764387 and cod_agente_origen=2 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 10:04:24 DEBUG ManagerEstadoAgentes.getInfo:64 - Probando el scheduler
+24/may/2022 10:04:24 DEBUG ManagerEstadoAgentes.getInfo:71 - sns.estadoagentes.ManagerEstadoAgentes.getInfo: INICIO1
+24/may/2022 10:04:24 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 10:04:24 CEST 2022
+24/may/2022 10:04:24 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 02.- SERVICIO ANDALUZ DE SALUD. SAS
+24/may/2022 10:04:24 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764387 and cod_agente_origen=2 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 10:04:25 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 10:04:25 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060764802 and cod_agente_origen=2 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 10:04:26 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:106 - Estado Sincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 10:04:26 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:64 - ---------------------------------------------------------------------------Tue May 24 10:04:24 CEST 2022
+24/may/2022 10:04:26 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:65 - Examinando agente 03.- SERVICIO CANARIO DE SALUD
+24/may/2022 10:04:26 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060763818 and cod_agente_origen=3 and cod_tipo_operacion in ('A002','A003')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion
+24/may/2022 10:04:27 DEBUG InfoEstadoAgentes.getInfoEstadoAgentes:88 - Estado Asincrono: ERR.- ORA-02391: exceeded simultaneous SESSIONS_PER_USER limit
+
+24/may/2022 10:04:27 DEBUG EstadoAgentesHelper.comprobarOpAgente:526 - query comprobarOpAgente: select /*+ PARALLEL(8) */ R.cod_operacion,R.fecha_operacion from (select max(cod_operacion) cod_operacion from snsalud.registro_operaciones where cod_operacion>=2060186763 and cod_agente_origen=3 and cod_tipo_operacion in ('A006','A007','A008')) A,snsalud.registro_operaciones R where R.cod_operacion=A.cod_operacion

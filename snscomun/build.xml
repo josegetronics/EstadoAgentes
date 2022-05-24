@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="all" name="snscomun">
+
+	<property environment="env"/>
+	<property name="build.compiler" value="${compiler}"/>
+	<property name="source" value="${basedir}/src"/>
+	<property name="build" value="${basedir}/bin"/>
+	<property name="dist" value="../ear"/>
+	<property name="jar_file" value="${ant.project.name}.jar" />
+
+	<property name="fichero_destino" value="${dist}/APP-INF/lib/${jar_file}" />
+
+	<target name="clean">
+		<delete file="${fichero_destino}" verbose="true"/>
+	</target>
+	
+	<target name="all" depends="clean,jar.comun"/>
+	
+	<target name="jar.comun">
+		<jar jarfile="${fichero_destino}"
+	      basedir="${build}"
+	      update="yes">
+		</jar>
+	</target>	
+</project>
