@@ -584,7 +584,10 @@ public class InfoTraspasosNuevo extends Info {
 					valoresSolicitud = Misc.remplazar(valoresSolicitud, "<valor>78259928J</valor><valor>UR</valor><valor>ALCAIDESA SUITES GOLF & GARDENS</valor>",
 							"<valor>78259928J</valor><valor>UR</valor><valor>ALCAIDESA SUITES GOLF AND GARDENS</valor>");				
 				}
-
+				// Se sustituye cualquier valor de la cadena que venga mal cerrado.
+				valoresSolicitud = Misc.remplazar(valoresSolicitud, "<</valor>", "</valor>");
+								
+				
 				
 				// Se construye un Xml a partir de la informacion de la BBDD
 				System.out.println("--construye@@@@@@@@@@@@@@@@@@@@@@@@--");
