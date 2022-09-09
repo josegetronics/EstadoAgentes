@@ -628,6 +628,14 @@ public class InfoTraspasosNuevo extends Info {
 					logger.debug("getInfoBBDD: SalidaMSG: " + salidaConBusquedaAproximada.getMsg());
 					throw new Exception("ERROR " + salidaConBusquedaAproximada.getMsg());
 				}
+				
+				logger.info(" ### -- 		DATOS FINALES	  -- ##" );
+				logger.info("codUsuarioSns: " + codUsuarioSns);
+				logger.info("camposAfectados: " + camposAfectados);
+				logger.info("camposAnteriores: " + camposAnteriores);
+				logger.info("valoresSolicitud: " + valoresSolicitud);
+				logger.info("valoresActuales: " + valoresActuales);
+				
 				System.out.println("---termina bucledddddddddddddddddd---------");
 			}
 			//
